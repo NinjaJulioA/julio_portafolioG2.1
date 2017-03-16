@@ -1,0 +1,72 @@
+body {
+  background: radial-gradient(circle, black, white);
+  background-position: center;
+  height: 80%;
+  width: 80%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 20px;
+  margin-left: 40px;
+  line-height: 1.6;
+  text-align: justify;
+}
+#paginas {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  float: right;
+}
+#portada {
+  height: 50%;
+  width: 20%;
+  background-color: #ff3300;
+  text-align: center;
+  float: left;
+  font-family:fantasy;
+}
+#escuela {
+  height: 50%;
+  width: 20%;
+  background-color: lightgreen;
+  text-align: center;
+  float: left;
+  font-family:fantasy;
+}
+#wastecero {
+  height: 50%;
+  width: 20%;
+  background-color: orange;
+  text-align: center;
+  float: left;
+  font-family:fantasy;
+}
+
+#promesaiap {
+  height: 50%;
+  width: 20%;
+  background-color: cyan;
+  text-align: center;
+  float: left;
+  font-family:fantasy;
+}
+#contacto {
+  height: 50%;
+  width: 20%;
+  background-color: lightblue;
+  text-align: center;
+  float: left;
+  font-family:fantasy;
+}
+#links {
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+  float: right;
+}
+#fotos {
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    float: center;
+  }

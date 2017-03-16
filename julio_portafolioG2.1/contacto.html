@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Julio Alvarez</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"> </script>
+ <link rel="stylesheet" href="assets/css/bio.css">
+ <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<header>
+<nav id= "paginas">
+  <!--botones y links -->
+  <!--portada-->
+<a id= "portada" href="index.html">Portada</a>
+<!--escuela_promesa-->
+<a id= "escuela" href="escuela_promesa.html">Escuela Promesa</a>
+<!--wastecero-->
+<a id= "wastecero" href="wastecero.html">Waste Cero</a>
+<!--promesa iap-->
+<a id= "promesaiap"href="promesa_iap.html">Promesa IAP</a>
+<!--contacto-->
+<a id= "contacto" href="contacto.html">Contacto</a>
+</nav>
+</header>
+
+  <body id= "cuerpo">
+    <div style="background-color:grey;">
+
+      <h1 style="text-align:center;"> CONTACTO </h1>
+
+  <!--Saludar-->
+  <input type="text" name="n" id="n" value="" />
+  <button onclick="saludo('Julio')" type="button" name="button">Escribe tu Nombre</button>
+
+ <div id="output"></div>
+
+ <script type="text/javascript">
+          var n ="";
+          function saludo(){
+            var nombre = $("input#n").val();
+            n = (nombre != "" || nombre != undefined) ? nombre : "Vacío";
+            $("div#output").text('Hola ' + nombre);
+          }
+  </script>
+
+<!--FELICITAR A LOS INTERESADOS-->
+        <div id="target";
+          style="padding:20px;">
+          ¿Te Interesa tu Medio Ambiente? DA CLICK AQUÍ
+        </div>
+       <script type="text/javascript">
+        var fn=function(){
+          alert('¡¡FELICIDADES!! ES EL PRIMER PASO para lograr un mejor mundo');
+        }
+        document.querySelector('#target').addEventListener('click',fn);
+       </script>
+
+<!--siguiente tontería-->
+<p> Ayudanos a mejorar.. Contesta las siguientes preguntas y en breve nos pondremos en contato contigo </p>
+<form>
+  <label for="text">Nombre Completo</label>
+  <input type="text" name ="firstname" value="nombre" size"100" autofocus>
+  <br />
+  <label for="email">Email</label>
+  <input type="email" name="userEmail" placeholder="hello@site.com">
+  <br>
+  <label for="text">Comentario</label>
+  <input type="text" name ="comentario" value="comentario o sugerencia" size"10000" autofocus>
+  <br />
+</form>
+
+  <!--Cierre-->
+  <footer style="text-align:center;">
+              </br>
+  <div>
+  <p style="font-family:courier";>  Sitio Elaborado por Julio Alvarez </p>
+    </div>
+  </div>
+  </footer>
+    </br>
+    </body>
+</html>
